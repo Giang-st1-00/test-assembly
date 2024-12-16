@@ -1,0 +1,28 @@
+{
+  "name": "test-assembly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node test.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giang-st1-00/test-assembly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giang-st1-00/test-assembly/issues"
+  },
+  "homepage": "https://github.com/Giang-st1-00/test-assembly#readme",
+  "dependencies": {
+    "assemblyai": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
