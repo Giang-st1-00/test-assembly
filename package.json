@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node test.ts",
+    "start": "ts-node transcript.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/Giang-st1-00/test-assembly#readme",
   "dependencies": {
-    "assemblyai": "^4.8.0"
+    "assemblyai": "^4.8.0",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "puppeteer": "^23.10.4"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
